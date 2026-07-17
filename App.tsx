@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 import {
   GitBranch,
   GitCommit,
@@ -974,6 +975,7 @@ if __name__ == "__main__":
         </footer>
 
       </div>
+      <Analytics />
     </div>
   );
 }
