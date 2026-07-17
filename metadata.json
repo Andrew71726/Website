@@ -1,0 +1,6 @@
+{
+  "name": "GitHub Auto-Publish Workflow",
+  "description": "A GitHub Action workflow that automatically runs daily to generate articles with Python, manage dependencies, use OpenAI API key securely, and commit back new pages and sitemaps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
